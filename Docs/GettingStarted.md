@@ -32,7 +32,7 @@ This is the Android Studio plugin that we will be using to remotely connect to t
 
 2. Type ADB Wi-Fi in the plugin search bar, and install the plugin by Yury Polek.
 
-#### Control Hub Setup
+#### Control Hub
 
 Your Control Hub is the device that will allow you to interface your code with your hardware. For now, we're just going to power it on and ensure that it's up to date.
 
@@ -43,5 +43,13 @@ Your Control Hub is the device that will allow you to interface your code with y
 3. In order to connect it with our Android Studio, we need to manually wire into it for the first time, using a USB cable. This will define the control hub and make it recognizable for remote connection in the future. To ensure that this connection was actually made, unplug the control hub from your computer and click the Wi-Fi icon on the righthand side of the screen. A disconnected Control Hub should now show up in the tab.<img src="file:///C:/Users/dzhu3077/AppData/Roaming/marktext/images/2026-04-09-14-12-51-image.png" title="" alt="" data-align="center">
 
 **In the future, when trying to connect remotely, you must connect to the control hub's Wi-Fi, which can be connected to the same way you'd connect to any other Wi-Fi. The default name will be something along the lines of 'FTC-####', and the default password is just 'password'.**
+
+#### Driver Hub
+
+1. Find a driver hub:<img title="" src="https://projectrobotica.wiki/images/thumb/e/e8/Driver1.png/500px-Driver1.png" alt="FTC Driver Hub Tutorial - Project Robotica" data-align="center">
+
+2. Turn it on by holding the power button, if it's not turning on, ask Barnes for the alternative method to jumpstart it.
+
+3. To make sure it's fully up-to-date, check the notification bar after connecting to the internet for update notifications. Afterwards, open the REV Hardware Client, connect to your control hub's Wi-Fi, and check the control hub for updates as well.
 
 
